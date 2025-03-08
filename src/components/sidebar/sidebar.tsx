@@ -1,7 +1,6 @@
-import React from "react";
 import { AccountToggle } from "./account-toggle";
 import { SearchBar } from "./search-bar";
-import { RouteSelect } from "./route-select";
+import { NavLinks } from "./nav-links";
 import { Plan } from "./plan";
 
 export const Sidebar = ({ insideHamburger }: { insideHamburger: boolean }) => {
@@ -16,7 +15,7 @@ export const Sidebar = ({ insideHamburger }: { insideHamburger: boolean }) => {
       >
         <AccountToggle />
         <SearchBar />
-        <RouteSelect />
+        <NavLinks />
       </div>
 
       <Plan />
