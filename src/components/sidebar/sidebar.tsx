@@ -4,10 +4,16 @@ import { SearchBar } from "./search-bar";
 import { RouteSelect } from "./route-select";
 import { Plan } from "./plan";
 
-export const Sidebar = () => {
+export const Sidebar = ({ insideHamburger }: { insideHamburger: boolean }) => {
   return (
-    <div>
-      <div className="sticky top-4 h-[calc(100dvh-32px-48px)] block">
+    <div className={`${insideHamburger ? "block" : "hidden md:block"}`}>
+      <div
+        className={`sticky top-4 ${
+          insideHamburger
+            ? "h-[calc(100dvh-150px)] fixed"
+            : "h-[calc(100dvh-90px)]"
+        }`}
+      >
         <AccountToggle />
         <SearchBar />
         <RouteSelect />
