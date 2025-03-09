@@ -1,7 +1,7 @@
 import { AccountToggle } from "./account-toggle";
 import { SearchBar } from "./search-bar";
 import { NavLinks } from "./nav-links";
-import { Plan } from "./plan";
+import { Logout } from "./logout";
 
 export const Sidebar = ({ insideHamburger }: { insideHamburger: boolean }) => {
   return (
@@ -18,7 +18,7 @@ export const Sidebar = ({ insideHamburger }: { insideHamburger: boolean }) => {
         <NavLinks />
       </div>
 
-      <Plan />
+      <Logout />
     </div>
   );
 };

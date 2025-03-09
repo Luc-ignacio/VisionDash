@@ -9,14 +9,14 @@ export const StatsCard = () => {
         value="$125,437.18"
         text="12.75%"
         trend="up"
-        period="From 1st Jan - 31st July"
+        period="From 1st Jan - Today"
       />
       <Card
         title="Net Profit Margin"
         value="18.5%"
         text="2.31%"
         trend="up"
-        period="From 1st Jan - 31st July"
+        period="From 1st Jan - Today"
       />
       <Card
         title="Monthly Expenses"

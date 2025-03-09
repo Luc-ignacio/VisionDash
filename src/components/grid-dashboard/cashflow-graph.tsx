@@ -15,36 +15,6 @@ import {
 
 const data = [
   {
-    name: "Mar 2024",
-    revenue: 102270,
-    expenses: 58795,
-  },
-  {
-    name: "Apr 2024",
-    revenue: 99496,
-    expenses: 68666,
-  },
-  {
-    name: "May 2024",
-    revenue: 107662,
-    expenses: 69593,
-  },
-  {
-    name: "Jun 2024",
-    revenue: 111100,
-    expenses: 68852,
-  },
-  {
-    name: "Jul 2024",
-    revenue: 115279,
-    expenses: 61236,
-  },
-  {
-    name: "Aug 2024",
-    revenue: 119446,
-    expenses: 63450,
-  },
-  {
     name: "Sep 2024",
     revenue: 117284,
     expenses: 60004,
