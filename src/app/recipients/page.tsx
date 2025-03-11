@@ -1,6 +1,6 @@
 import { TopBar } from "@/components/top-bar/top-bar";
 import { Sidebar } from "@/components/sidebar/sidebar";
-import { GridRecipients } from "@/components/grid/grid-recipients/grid-recipients";
+import { GridRecipients } from "@/components/grid/recipients/grid-recipients";
 
 export default function Recipients() {
   return (
