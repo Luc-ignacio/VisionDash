@@ -3,7 +3,7 @@ import React from "react";
 
 export const RecipientsTitle = () => {
   return (
-    <div className="flex items-center justify-between p-4 border-b border-gray-300/50">
+    <div className="flex items-center justify-between p-4">
       <h3 className="flex items-center gap-2 font-semibold">
         <UsersRound size={18} />
         Recipients

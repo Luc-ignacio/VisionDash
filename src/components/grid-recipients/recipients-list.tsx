@@ -49,14 +49,14 @@ export const RecipientsList = () => {
     return (
       <div
         key={recipient.id}
-        className="flex p-4 items-center justify-between hover:bg-gray-300 rounded cursor-pointer"
+        className="flex p-4 items-center justify-between hover:bg-gray-300 rounded cursor-pointer border-b border-gray-300/50"
       >
         <div className="flex gap-4 items-center relative">
           <Image
             src={recipient.avatar}
             alt={recipient.name}
-            width={70}
-            height={70}
+            width={65}
+            height={65}
             className="rounded-full"
           />
           <Image
@@ -64,12 +64,12 @@ export const RecipientsList = () => {
             alt={recipient.currency}
             width={30}
             height={30}
-            className="absolute rounded-full outline-2 outline-white bottom-[-8] left-14"
+            className="absolute rounded-full outline-2 outline-white bottom-[-8] left-13"
           />
 
           <div className="ml-4">
-            <p>{recipient.name}</p>
-            <p className="text-sm text-gray-900">
+            <p className="text-sm lg:text-base">{recipient.name}</p>
+            <p className="text-xs lg:text-sm text-gray-900">
               {recipient.currency} account ending in {recipient.account}
             </p>
           </div>

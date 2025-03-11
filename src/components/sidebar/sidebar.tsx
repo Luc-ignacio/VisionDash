@@ -14,7 +14,7 @@ export const Sidebar = ({ insideHamburger }: { insideHamburger: boolean }) => {
         }`}
       >
         <AccountToggle />
-        <SearchBar />
+        {/* <SearchBar /> */}
         <NavLinks />
       </div>
 

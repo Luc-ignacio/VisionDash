@@ -35,6 +35,7 @@ export const CommandMenu = ({
         onClick={(e) => e.stopPropagation()}
         className="bg-white rounded-lg shadow-xl border border-gray-500 overflow-hidden w-full max-w-lg mx-auto mt-12"
       >
+        <Command.Dialog title="" />
         <Command.Input
           value={value}
           onValueChange={setValue}
