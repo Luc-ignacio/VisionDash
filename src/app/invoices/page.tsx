@@ -1,6 +1,6 @@
 import { TopBar } from "@/components/top-bar/top-bar";
 import { Sidebar } from "@/components/sidebar/sidebar";
-import { GridInvoices } from "@/components/grid-invoices/grid-invoices";
+import { GridInvoices } from "@/components/grid/invoices/grid-invoices";
 
 export default function Invoices() {
   return (

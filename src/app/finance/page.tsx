@@ -1,6 +1,6 @@
 import { TopBar } from "@/components/top-bar/top-bar";
 import { Sidebar } from "@/components/sidebar/sidebar";
-import { GridFinance } from "@/components/grid-finance/grid-finance";
+import { GridFinance } from "@/components/grid/finance/grid-finance";
 
 export default function Finance() {
   return (

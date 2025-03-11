@@ -1,4 +1,4 @@
-import { GridDashboard } from "@/components/grid-dashboard/grid-dashboard";
+import { GridDashboard } from "@/components/grid/dashboard/grid-dashboard";
 import { TopBar } from "@/components/top-bar/top-bar";
 import { Sidebar } from "@/components/sidebar/sidebar";
 
